@@ -1,17 +1,31 @@
-<!doctype html>
-<html lang="en" ng-app="siteApp">
-  <head>
-    <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Olivier's website</title>
-    <meta name="description" content="">
-    <meta name="author" content="Olivier Grégoire">
-    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="app/main/default.css">
-  </head>
-  <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+<!DOCTYPE html>
+
+<!-- define angular app -->
+<html ng-app="ogregoireApp">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Olivier's website</title>
+  <meta name="description" content="">
+  <meta name="author" content="Olivier Grégoire">
+  <base href="/">
+
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css" />
+
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/angular/angular.min.js"></script>
+  <script src="lib/angular/angular-route.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="app/ogregoire/app.js"></script>
+</head>
+
+<!-- define angular controller -->
+<body ng-controller="mainController">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -26,23 +40,35 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
+  <!--nav class="navbar navbar-default">
     <div class="container">
-
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">Angular Routing Example</a>
       </div>
 
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#about"><i class="fa fa-shield"></i> About</a></li>
+        <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
+      </ul>
     </div>
+  </nav-->
+
+  <div id="main">
+  
+    <!-- angular templating -->
+        <!-- this is where content will be injected -->
+    <div ng-view></div>
     
-	<script src="lib/jquery/jquery.min.js"></script>
-	<script src="lib/angular/angular.min.js"></script>
-	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  </body>
+  </div>
+  
+
+</body>
+
 </html>
