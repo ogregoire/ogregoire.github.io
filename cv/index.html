@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="resumeApp">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Olivier's website</title>
+  <meta name="description" content="">
+  <meta name="author" content="Olivier Grégoire">
+  <base href="/">
+
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="app/resume/default.css" />
+
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/angular/angular.min.js"></script>
+  <script src="lib/angular/angular-route.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="app/resume/app.js"></script>
+</head>
+
+<body ng-controller="mainController">
+	<div class="container-fluid">
+		<div class="row main clearfix">
+			<section class="col-md-3 card-wrapper profile-card-wrapper affix">
+				<div class="card">Me, myself and I</div>
+			</section>
+			<section class="col-md-9 card-wrapper pull-right">
+				<div class="card">My skills, my capabilities and what I can do.</div>
+			</section>
+		</div>
+	</div>
+</body>
+
+</html>
