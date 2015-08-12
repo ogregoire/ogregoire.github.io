@@ -2,11 +2,9 @@
   'use strict';
   
   angular
+    .module('app')
     .module('home', [
-      'ngAnimate',
-      'ngRoute',
-      'app.shared',
-      'app.dashboard'
+      'ngRoute'
     ]);
 })();
 
