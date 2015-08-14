@@ -3,8 +3,8 @@
   
   angular
     .module('library', [
-      'ngAnimate',
-      'ngRoute'
+      'ngRoute',
+	  'app'
     ]);
 })();
 
