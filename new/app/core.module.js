@@ -2,7 +2,8 @@
   'use strict';
   
   angular
-    .module('home', [
+    .module('core', [
       'ngRoute'
     ]);
 })();
+

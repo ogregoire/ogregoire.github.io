@@ -1,6 +1,6 @@
 (function() {
   angular
-      .module('app')
+      .module('core')
       .factory('logger', logger);
 
   logger.$inject = ['$log'];
