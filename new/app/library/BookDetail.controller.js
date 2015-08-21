@@ -2,7 +2,7 @@
   'use strict';
   
   angular
-    .module('library')
+    .module('app.library')
     .controller('BookDetailController', BookDetailController);
 
   BookDetailController.$inject = [];

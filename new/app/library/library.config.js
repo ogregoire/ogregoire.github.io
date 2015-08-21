@@ -2,7 +2,7 @@
   'use strict';
   
   angular
-    .module('library')
+    .module('app.library')
     .config(config);
   
   config.$inject = ['$routeProvider']

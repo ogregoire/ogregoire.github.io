@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <!-- define angular app -->
-<html ng-app="home">
+<html ng-app="app">
 
 <head>
   <meta charset="utf-8">
@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Olivier's website</title>
   <meta name="description" content="">
-  <meta name="author" content="Olivier Gr�goire">
+  <meta name="author" content="Olivier Grégoire">
   <base href="/">
 
   <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
@@ -20,20 +20,23 @@
   <script src="lib/angular/angular-route.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.min.js"></script>
   
-  <script src="app/core.module.js"></script>
+  <script src="app/app.module.js"></script>
+  
+  <script src="app/core/core.module.js"></script>
   <script src="app/core/logger.service.js"></script>
   
-  <script src="app/home.module.js"></script>
-  <script src="app/home/Home.controller.js"></script>
+  <script src="app/home/home.module.js"></script>
+  <script src="app/home/home.js"></script>
   
-  <script src="app/library.module.js"></script>
-  <script src="app/library.config.js"></script>
+  <script src="app/library/library.js"></script>
+  <script src="app/library/library.module.js"></script>
+  <script src="app/library/library.config.js"></script>
   <script src="app/library/BookDetail.controller.js"></script>
   <script src="app/library/BookList.controller.js"></script>
 </head>
 
 <!-- define angular controller -->
-<body ng-controller="HomeController as home">
+<body ng-controller="Library as library">
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
