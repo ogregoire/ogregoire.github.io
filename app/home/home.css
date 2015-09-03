@@ -25,14 +25,22 @@ a:hover .card, a:hover .card .icon, a:hover .card p {
 	min-height: 2em;
 }
 
+/* DEEP BLUE */
+a:hover .card-resume { background-color: #337ab7; }
+        .card-resume { border-color:#2e6da4; }
+        .card-resume .icon { color: #337ab7; }
+
+/* YELLOW */
 a:hover .card-wishlist { background-color: #f0ad4e; }
         .card-wishlist { border-color:#eea236; }
         .card-wishlist .icon { color: #f0ad4e; }
 
-a:hover .card-book { background-color: #5bc0de; }
-        .card-book { border-color:#46b8da; }
-        .card-book .icon { color: #5bc0de; }
+/* GREEN */
+a:hover .card-collections { background-color: #5cb85c; }
+        .card-collections { border-color:#4cae4c; }
+        .card-collections .icon { color: #5cb85c; }
 
+/* RED */
 a:hover .card-game { background-color: #d9534f; }
         .card-game { border-color: #d43f3a; }
         .card-game .icon { color: #d9534f; }
