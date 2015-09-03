@@ -1,0 +1,60 @@
+/*
+ * Large devices, wide screens
+ * @media (max-width : 1200px) {
+ * }
+ *
+ * Medium devices, wide screens
+ * @media (max-width : 992px) {
+ * }
+ *
+ * Small devices, tablets
+ * @media (max-width : 768px) {
+ * }
+ *
+ * Extra small devices, phones
+ * @media (max-width : 480px) {
+ * }
+ *
+ * Custom, iPhone Retina
+ * @media (max-width : 320px) {
+ * }
+ *
+ */
+
+body {
+	background: #F0F0F0;
+	color: #333333;
+}
+
+.card {
+  background: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  border-radius: 3px;
+  min-height: 300px;
+  padding: 10px;
+}
+
+.card-wrapper {
+  padding: 5px;
+}
+@media (max-width: 992px) { /* Medium devices, desktops */
+  .card-wrapper {
+    float: none !important;
+  }
+}
+
+@media (max-width: 992px) { /* Medium devices, desktops */
+  .profile-card-wrapper {
+    position: relative;
+  }
+}
+
+.name-and-profession {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.text-bolder {
+	font-weight: bolder;
+}

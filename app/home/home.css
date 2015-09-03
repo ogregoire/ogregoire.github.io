@@ -1,0 +1,38 @@
+a, a:link, a:visited, a:hover, a:active {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.card {
+	text-align: center;
+	border: 10px solid;
+	border-radius: 15px;
+	margin: 10px;
+	width: 100%;
+}
+
+a:hover .card, a:hover .card .icon, a:hover .card p {
+	border-color: #fff;
+	color: #fff;
+}
+
+.card .icon {
+	font-size: 150px;
+}
+
+.card  p{
+	font-size: 2em;
+	min-height: 2em;
+}
+
+a:hover .card-wishlist { background-color: #f0ad4e; }
+        .card-wishlist { border-color:#eea236; }
+        .card-wishlist .icon { color: #f0ad4e; }
+
+a:hover .card-book { background-color: #5bc0de; }
+        .card-book { border-color:#46b8da; }
+        .card-book .icon { color: #5bc0de; }
+
+a:hover .card-game { background-color: #d9534f; }
+        .card-game { border-color: #d43f3a; }
+        .card-game .icon { color: #d9534f; }

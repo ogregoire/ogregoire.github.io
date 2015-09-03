@@ -1,0 +1,382 @@
+{
+	"apiVersion": "1.0",
+	"documentVersion": "20150409",
+	"person": {
+		"name": "Olivier Grégoire",
+		"profession": "Software developer",
+		"picture": null,
+		"email": "ogregoire@gmail.com",
+		"phone": "+32 (0)486 74 09 49",
+		"location": {
+			"address": "Avenue de Jette 203",
+			"postalCode": "1090",
+			"city": "Brussels",
+			"country": "Belgium"
+		}
+	},
+	"summary": "Olivier is from Brussels. He worked for several years for Atos, either directly or indirectly, as a Java Developer and used his skills for various customers including Base Company, the Service Public Wallonie, the Cliniques Saint-Luc and the Belgian mutualities and syndicates. He keeps himself up to date in various technologies including Java and Web Development. Olivier loves working in teams and is looking into developping for large scaled systems.",
+	"works": [
+		{
+			"project": null,
+			"company": "Mlive SPRL (now DJ Play)",
+			"companyUrl": "http://www.mlive.biz/",
+			"customer": null,
+			"customerUrl": null,
+			"position": "Java Developer (as student job)",
+			"description": "M-Live is a company selling professional musical diffusion systems",
+			"startDate": "2006-02-01",
+			"endDate": "2006-08-31",
+			"highlights": [
+				"Implementation of a tool to manage the billing, the customers and the resources."
+			],
+			"technologies": [
+				"Java SE",
+				"PostgreSQL",
+				"Linux"
+			]
+		},
+		{
+			"project": "Consultation Requests Manager",
+			"company": "Cliniques Saint-Luc ASBL",
+			"companyUrl": "http://www.saintluc.be/",
+			"customer": null,
+			"customerUrl": null,
+			"position": "Java Developer (as intern)",
+			"description": "Saint-Luc is a Belgian hospital located in Brussels",
+			"startDate": "2006-10-01",
+			"endDate": "2007-01-31",
+			"highlights": [
+				"Analysis and development of tool managing the recording and handling of patients' consultation requests. This tool is still used as of today."
+			],
+			"technologies": [
+				"Java EE",
+				"JBoss",
+				"Sybase",
+				"Oracle Database",
+				"Linux"
+			]
+		},
+		{
+			"project": null,
+			"company": "Bluevision SPRL",
+			"companyUrl": "http://www.bluevision.be/",
+			"customer": null,
+			"customerUrl": null,
+			"position": "PHP Developer",
+			"description": "Bluevision is a web development and hosting company, focused on providing full-integrated e-commerce solutions to small and medium-sized companies.",
+			"startDate": "2007-05-01",
+			"endDate": "2007-09-30",
+			"highlights": [
+				"Analysis and development of extensions to osCommerce to be used as customizations for the final customers."
+			],
+			"technologies": [
+				"PHP",
+				"MySQL",
+				"Linux"
+			]
+		},
+		{
+			"project": "Belgian Telecom Competency Center",
+			"company": "Planet Talent",
+			"companyUrl": "http://www.planet-talent.com/",
+			"customer": "Atos Belgium N.V./S.A.",
+			"customerUrl": "http://be.atos.net/",
+			"position": "Junior, Medior Java Developer",
+			"description": "The Belgian Telecom Competency Center project was created to provide fully integrated back-end management to telecom companies, more specifically to Base Company",
+			"startDate": "2007-10-01",
+			"endDate": "2011-04-01",
+			"highlights": [
+				"Analysis and development of customizations in relation to the customer management, the provisioning and the number portability.",
+				"Support and maintenance of the service SMS router system.",
+				"Several upgrades of the technologies used."
+			],
+			"technologies": [
+				"Java EE",
+				"Oracle WebLogic",
+				"Oracle Database",
+				"Apache Maven",
+				"Unix"
+			]
+		},
+		{
+			"project": "Belgian Telecom Competency Center",
+			"company": "Atos Belgium N.V./S.A.",
+			"companyUrl": "http://be.atos.net/",
+			"customer": null,
+			"customerUrl": null,
+			"position": "Senior Java Developer",
+			"description": "The Belgian Telecom Competency Center project was created to provide fully integrated back-end management to telecom companies, more specifically to Base Company",
+			"startDate": "2011-05-01",
+			"endDate": "2013-09-30",
+			"highlights": [
+				"Analysis and development of customizations in relation to the customer management, the provisioning and the number portability.",
+				"Support and maintenance of the service SMS router system.",
+				"Several upgrades of the technologies used."
+			],
+			"technologies": [
+				"Java EE",
+				"Oracle WebLogic",
+				"Oracle Database",
+				"Apache Maven",
+				"Unix"
+			]
+		},
+		{
+			"project": "SPW",
+			"company": "Atos Belgium N.V./S.A.",
+			"companyUrl": "http://be.atos.net/",
+			"customer": "Service Public Wallonie",
+			"customerUrl": "http://spw.wallonie.be/",
+			"position": "Senior Java Developer",
+			"description": "The SPW project inside of Atos Belgium creates and manages the Car Tax application for the Service Public Wallonie",
+			"startDate": "2013-07-01",
+			"endDate": "2013-10-31",
+			"highlights": [
+				"Analysis and development of fixes for the long-standing bugs."
+			],
+			"technologies": [
+				"Java EE",
+				"JBoss",
+				"Oracle Database",
+				"Apache Maven",
+				"Linux"
+			]
+		},
+		{
+			"project": "Electronic C3",
+			"company": "Atos Belgium N.V./S.A.",
+			"companyUrl": "http://be.atos.net/",
+			"customer": "InterOP / InterUI",
+			"customerUrl": "http://www.interop.be/",
+			"position": "Senior Java Developer",
+			"description": "The Electronic C3 is the replacement from a physical to an electronic card for the unemployed to register their days",
+			"startDate": "2013-10-01",
+			"endDate": "2015-01-31",
+			"highlights": [
+				"Creation of the backend applications with a focus on keeping the privacy data secure.",
+				"Handling of the communication to both the frontend application and the paying organisms (syndicates and CAPAC).",
+				"Development of monitoring tools, guaranteeing a 99.5% uptime of the application.",
+				"Maintenance of the application after launch"
+			],
+			"technologies": [
+				"Java EE",
+				"JBoss/Wildfly",
+				"Microsoft SQL",
+				"Apache Maven",
+				"AngularJS",
+				"Linux"
+			]
+		},
+		{
+			"project": "NIPPIN",
+			"company": "Atos Belgium N.V./S.A.",
+			"companyUrl": "http://be.atos.net/",
+			"customer": "Collège Intermutualiste National - Nationaal Intermutualistisch College",
+			"customerUrl": "http://www.mycarenet.be/",
+			"position": "Senior Java Developer",
+			"description": "The NIPPIN project handles the communications between all the care providers and the Belgian mutualities",
+			"startDate": "2014-02-01",
+			"endDate": "2014-09-30",
+			"highlights": [
+				"Creation and delivery of a platform to securely integrate the data from the mutualities in order to improve its availability uptime.",
+				"Creation and delivery of a tool for doctors to check the refund amounts from each mutualities."
+			],
+			"technologies": [
+				"Java EE",
+				"JBoss/Wildfly",
+				"PostgreSQL",
+				"Oracle Database",
+				"Apache Maven",
+				"AngularJS",
+				"Linux"
+			]
+		},
+		{
+			"project": "Base Company project",
+			"company": "Atos Belgium N.V./S.A.",
+			"companyUrl": "http://be.atos.net/",
+			"customer": "Tech Mahindra",
+			"customerUrl": "http://www.techmahindra.com/",
+			"position": "Senior Java Developer",
+			"description": "Tech Mahindra is Base Company's current backoffice provider",
+			"startDate": "2015-02-01",
+			"endDate": null,
+			"highlights": [
+				"Support of the upgrade of Java and WebLogic for the previously written application, see \"Belgian Telecom Compentency Center\""
+			],
+			"technologies": [
+				"Java EE",
+				"WebLogic",
+				"Oracle Database",
+				"Apache Maven",
+				"Unix"
+			]
+		}
+	],
+	"education": [
+		{
+			"specialization": "Secondary Degree - Latin and Mathematics",
+			"institution": "Centre Scolaire du Sacré-Cœur de Jette",
+			"institutionUrl": "http://www.sacre-coeur-jette.be/",
+			"startDate": "1994-09-01",
+			"endDate": "2000-06-30",
+			"location": {
+				"address": "Avenue du Sacré-Cœur 8",
+				"postalCode": "1090",
+				"city": "Brussels",
+				"country": "Belgium"
+			},
+			"courses": [
+			]
+		},
+		{
+			"specialization": "Bachelor in Computer Science",
+			"institution": "Université Catholique de Louvain",
+			"institutionUrl": "https://www.uclouvain.be/",
+			"startDate": "2000-09-01",
+			"endDate": "2002-06-30",
+			"location": {
+				"address": "Place de l'Université 1",
+				"postalCode": "1348",
+				"city": "Louvain-La-Neuve",
+				"country": "Belgium"
+			},
+			"courses": [
+			]
+		},
+		{
+			"specialization": "Bachelor in Computer Science",
+			"institution": "Institut Paul Lambin",
+			"institutionUrl": "http://www.ipl.be/",
+			"startDate": "2002-09-01",
+			"endDate": "2007-01-31",
+			"location": {
+				"address": "Clos Chapelle-aux-champs 43",
+				"postalCode": "1200",
+				"city": "Brussels",
+				"country": "Belgium"
+			},
+			"courses": [
+			]
+		}
+	],
+	"trainings": [
+		{
+			"label": "Sun Certified Programmer for the Java Platform, SE 6",
+			"type": "certification",
+			"dispenser": "Pearson VUE",
+			"dispenserUrl": "http://www.pearsonvue.com/",
+			"date": "2009-05-29"
+		},
+		{
+			"label": "ITIL Version 3 Foundation Examination",
+			"type": "certification",
+			"dispenser": "Exin",
+			"dispenserUrl": "http://www.exin.com/",
+			"date": "2010-12-27"
+		},
+		{
+			"label": "Java EE 5",
+			"type": "training",
+			"dispenser": "Info Support B.V.",
+			"dispenserUrl": "https://www.infosupport.com/be/",
+			"date": "2011-02-15"
+		},
+		{
+			"label": "Java and Hibernate",
+			"type": "training",
+			"dispenser": "Cevora",
+			"dispenserUrl": "http://www.cevora.be/",
+			"date": "2011-03-18"
+		},
+		{
+			"label": "Oracle Certified Associate, Java SE 7 Programmer",
+			"type": "certification",
+			"dispenser": "Pearson VUE",
+			"dispenserUrl": "http://www.pearsonvue.com/",
+			"date": "2015-02-24"
+		},
+		{
+			"label": "Oracle Certified Professional, Java SE 7 Programmer",
+			"type": "certification",
+			"dispenser": "Pearson VUE",
+			"dispenserUrl": "http://www.pearsonvue.com/",
+			"date": "2015-03-24"
+		}
+	],
+	"languages": [
+		{
+			"language": "French",
+			"fluency": "Native speaker"
+		},
+		{
+			"language": "English",
+			"fluency": "Fluent"
+		},
+		{
+			"language": "Dutch",
+			"fluency": "Fluent speaking and reading, basic writing"
+		}
+	],
+	"skills": [
+		{
+			"label": "Java",
+			"level": "Expert",
+			"keywords": [
+				"Java SE",
+				"Java EE",
+				"JBoss/Wildfly",
+				"WebLogic"
+			]
+		},
+		{
+			"label": "System communication",
+			"level": "Expert",
+			"keywords": [
+				"SOAP",
+				"REST",
+				"JSON",
+				"XML"
+			]
+		},
+		{
+			"label": "System administration",
+			"level": "Good",
+			"keywords": [
+				"Linux",
+				"Unix",
+				"Bash",
+				"Perl",
+				"Python"
+			]
+		},
+		{
+			"label": "Web Development",
+			"level": "Good",
+			"keywords": [
+				"HTML5",
+				"JavaScript",
+				"AngularJS"
+			]
+		},
+		{
+			"label": "Databases",
+			"level": "Good",
+			"keywords": [
+				"Oracle Database",
+				"PostgreSQL",
+				"Microsoft SQL"
+			]
+		},
+		{
+			"label": "Team work",
+			"level": "Good",
+			"keywords": [
+				"SVN",
+				"Git",
+				"Hudson/Jenkins",
+				"Apache Maven"
+			]
+		}
+	]
+}
