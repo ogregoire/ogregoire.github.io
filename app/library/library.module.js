@@ -3,8 +3,7 @@
   
   angular
     .module('app.library', [
-      'ngRoute',
-	  'app'
+      'ngRoute'
     ]);
 })();
 

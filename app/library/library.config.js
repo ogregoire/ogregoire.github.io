@@ -11,13 +11,13 @@
     $routeProvider
       .when('/books', {
         templateUrl: 'app/library/book-list.html',
-        controller: 'BookListController',
-        controllerAs: vm
+        controller: 'BookList',
+        controllerAs: 'books'
       })
       .when('/books/:bookId', {
         templateUrl: 'app/library/book-detail.html',
-        controller: 'BookDetailController',
-        controllerAs: vm
+        controller: 'BookDetail',
+        controllerAs: 'book'
       })
       .otherwise({
         redirectTo: '/books'
